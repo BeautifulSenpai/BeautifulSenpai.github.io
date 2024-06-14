@@ -691,6 +691,7 @@ span {
 
     .navbar.active {
         display: block;
+        position: fixed;
     }
 
     .navbar a {
@@ -751,6 +752,7 @@ span {
 
     .services-container {
         grid-template-columns: repeat(1,1fr);
+        justify-content: center;
     }
 
     .services-box[data-tilt] {
