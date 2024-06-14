@@ -28,10 +28,12 @@ window.onscroll = () => {
     }
   };
 
-menuIcon.onclick = () => {
+
+
+menuIcon.addEventListener('touchstart', () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-};
+});
 
 function changeLanguage(language) {
   const elements = document.querySelectorAll('[data-translate]');

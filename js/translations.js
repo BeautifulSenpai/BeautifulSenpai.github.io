@@ -4,7 +4,7 @@ const translations = {
         "nav-services": "Services",
         "nav-education": "Education",
         "nav-contact": "Contact",
-        "home-greeting": "Hello, I'm ",
+        "home-greeting": "Hi, I'm ",
         "senpai": "Senpai",
         "btn-contact": "Contact",
         "btn-tip": "Tip Me",

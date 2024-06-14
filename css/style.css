@@ -691,7 +691,6 @@ span {
 
     .navbar.active {
         display: block;
-        position: fixed;
     }
 
     .navbar a {
@@ -704,7 +703,7 @@ span {
 
     .home img[data-tilt] {
         transform: none !important;
-      }
+    }
 
     .home {
         flex-direction: column;
